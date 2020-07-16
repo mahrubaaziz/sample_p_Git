@@ -28,6 +28,12 @@ Login login;
 		
 		logger= report.createTest("User Management page open");
 		
+		login.enterUserName("Admin");
+		
+		login.enterPassword("admin123");
+		
+		login.clickonSubmitButton();
+		
 		
 		
 		UserManagement.hoverOnAdmin();

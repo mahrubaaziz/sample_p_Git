@@ -15,10 +15,7 @@ public class Login {
 		this.driver=Idriver;
 	}
 	
-	/*@FindBy(xpath="//a[contains(text(),'Sign in')]") WebElement SignIn;
-	@FindBy(xpath="//*[@id='email']") WebElement email;
-	@FindBy(name="passwd") WebElement password;
-	@FindBy(id="SubmitLogin") WebElement Loginbutton;*/
+	
 	
 	//locator for the new website opensource-demo.orangehrmlve.com
 	

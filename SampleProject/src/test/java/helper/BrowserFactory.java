@@ -13,7 +13,7 @@ public class BrowserFactory {
 	
 	 public static WebDriver startApplication(String browserName, String appURL)
 	 {
-	 	WebDriver driver=null;
+	 	WebDriver driver = null;
 	
 		if(browserName.equalsIgnoreCase("Firefox"))
 		{

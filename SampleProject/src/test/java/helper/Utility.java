@@ -89,8 +89,8 @@ public class Utility {
 		}
 		public static String captureScreenshot(WebDriver driver)
 		{
-			String time =getTime();
-			String dest =System.getProperty("user.dir")+"ScreenShot/AP"+time+".png";//create screenshot obj
+			String time = getTime();
+			String dest = System.getProperty("user.dir")+"/Screenshots/AP"+time+".png";//create screenshot obj
 			TakesScreenshot ts =(TakesScreenshot)driver;
 			
 			File src=ts.getScreenshotAs(OutputType.FILE);//we create a method and put the file
